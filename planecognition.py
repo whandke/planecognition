@@ -54,4 +54,4 @@ for r in range(rows):
         axarray[r, c].imshow(processImage(
             originals[c + r*cols]), cmap="gray")
 
-plt.savefig("planes.png", dpi=1600, bbox_inches='tight')
+plt.savefig("planes.pdf", dpi=1600, bbox_inches='tight')
